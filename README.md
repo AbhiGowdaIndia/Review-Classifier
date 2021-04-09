@@ -10,6 +10,7 @@ The model is selected by performing hyper parameter tuning on different algorith
 I have deployed it in AWS Ec2 instance, code for deployment is written in "review_api.py" where we load the model and deployed it in "Amazon Web Service EC2 instance" using "Streamlit".
 
 Following link is the live link for the project where we can verify by uploading a csv file.
+
 http://ec2-54-160-81-248.compute-1.amazonaws.com:8501/
 
 I have uploaded a csv file namely "Review_test_data.csv", In which I had made some changes in the review ratings for the positive reviews. It contains 100 records, out of these I have changed arround 15 positive reviews ratings to 1.
